@@ -2,7 +2,7 @@
   "name": "gestao_estoque",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon src/server.js",
     "test": "set NODE_OPTIONS=--enable-case-sensitive-file-urls && exit 1"
@@ -17,7 +17,7 @@
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0",
+    "nodemon": "^3.1.4",
     "sequelize-cli": "^6.6.2"
   }
 }
